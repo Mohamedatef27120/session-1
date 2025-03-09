@@ -1,0 +1,22 @@
+void main (){
+
+  class Car {
+    String brand;
+    String model;
+    int year;
+    car(this.brand, this.model, this.year);
+    void displayInfo(){
+      print("Car Details: $brand $model, Year:$year");
+    }
+  }
+}
+  void main (){
+
+Car myCar = Car("Toyota", "corolla", 2025);
+
+print ("brand : ${mycar.brand}");
+print ("model : ${mycar.model}");
+print ("year : ${mycar.year}");
+
+myCar.displayInfo();
+  }
